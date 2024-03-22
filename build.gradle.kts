@@ -12,7 +12,7 @@ plugins {
 }
 
 group = "dev.blocky.app.ytd"
-version = "3.0.0"
+version = "3.0.1"
 description = "Downloader for YouTube videos, that extracts audio from the video."
 
 repositories {
@@ -30,12 +30,12 @@ dependencies {
     implementation("net.java.dev.jna:jna-platform:5.14.0")
 
     api("org.controlsfx:controlsfx:11.2.1")
-    api("one.jpro.platform:jpro-mdfx:0.2.14")
+    api("one.jpro.platform:jpro-mdfx:0.2.15")
     api("fr.brouillard.oss:cssfx:11.5.1")
 
     api("net.jthink:jaudiotagger:3.0.1")
 
-    api("org.kohsuke:github-api:1.320")
+    api("org.kohsuke:github-api:1.321")
 
     api("com.squareup.retrofit2:retrofit:2.10.0")
     api("com.squareup.retrofit2:converter-gson:2.10.0")
